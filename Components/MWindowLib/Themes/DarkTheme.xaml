@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    >
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/MWindowLib;component/Styles/WindowButtonStyle.xaml" />
+        <!-- ResourceDictionary Source="/MWindowLib;component/Controls/Accent/BaseDark.xaml" / -->
+        <ResourceDictionary Source="/MWindowLib;component/Themes/DarkBrushs.xaml" />
+        <ResourceDictionary Source="/MWindowLib;component/SimpleMetroWindow.xaml" />
+        <ResourceDictionary Source="/MWindowLib;component/MetroWindow.xaml" />
+        <ResourceDictionary Source="/MWindowLib;component/Controls/MWResizeGrip.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

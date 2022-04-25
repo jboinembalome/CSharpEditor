@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <IsPackable>true</IsPackable>
+    <RootNamespace>RoslynEditor</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Reactive.Linq" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RoslynEditor.Core.Windows\RoslynEditor.Core.Windows.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\MLib\MLib.csproj" />
+    <ProjectReference Include="..\..\MWindowLib\MWindowLib.csproj" />
+    <ProjectReference Include="..\SettingsModel\SettingsModel.csproj" />
+  </ItemGroup>
+
+</Project>

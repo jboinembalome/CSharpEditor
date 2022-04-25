@@ -1,0 +1,56 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    
+    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+    xmlns:reskeys="clr-namespace:MLib.Themes"
+    >
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/MLib;component/Styles/FocusVisualStyleKey.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/ProgressBar.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/Metro/MetroProgressBar.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/Menu/Menu.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/Menu/ContextMenu.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/Menu/LightBrushs.xaml" />
+
+        <ResourceDictionary Source="/MLib;component/Controls/StatusBar.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/GridSplitter.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/Slider.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/Toolbar.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/TextBlock.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/Label.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/Hyperlink.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/Button.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/GroupBox.xaml" />
+
+        <ResourceDictionary Source="/MLib;component/Controls/ListBox.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/ListView.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/ScrollBar.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/ToolTip.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/ComboBox.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/TextBox.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/PasswordBox.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/TabControl.xaml" />
+
+        <ResourceDictionary Source="/MLib;component/Controls/ContentControlEx.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/Expander.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/Checkbox.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/RadioButton.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/TreeView.xaml" />
+        <ResourceDictionary Source="/MLib;component/Controls/MResizeGrip.xaml" />
+
+        <ResourceDictionary Source="/MLib;component/Themes/LightBrushs.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <!--Close system button-->
+    <sys:Double x:Key="{ComponentResourceKey TypeInTargetAssembly={x:Type reskeys:ResourceKeys},
+                ResourceId=ControlCloseButtonWidthKey}">32</sys:Double>
+
+    <!--System Button-->
+    <sys:Double x:Key="{ComponentResourceKey TypeInTargetAssembly={x:Type reskeys:ResourceKeys},
+                ResourceId=ControlSystemButtonHeightKey}">24</sys:Double>
+
+    <sys:Double x:Key="{ComponentResourceKey TypeInTargetAssembly={x:Type reskeys:ResourceKeys},
+                ResourceId=ControlSystemButtonWidthKey}">32</sys:Double>
+
+</ResourceDictionary>

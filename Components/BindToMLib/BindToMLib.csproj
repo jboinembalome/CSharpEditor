@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp3.0;net4.5.2</TargetFrameworks>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dirkster.WatermarkControlsLib" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Components\MLib\MLib.csproj" />
+    <ProjectReference Include="..\..\Components\MWindowDialogLib\MWindowDialogLib.csproj" />
+    <ProjectReference Include="..\..\Components\MWindowLib\MWindowLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="DarkBrushs.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LightBrushs.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MWindowDialogLib\DarkLightBrushs.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MWindowLib\DarkBrushs.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MWindowLib\LightBrushs.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WatermarkControlsLib\DarkLightBrushs.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AvalonEdit" Version="6.1.2.30" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="3.8.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="3.8.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Scripting.Common" Version="3.8.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="Microsoft.Toolkit.Mvvm" Version="7.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Components\MLib\MLib.csproj" />
+    <ProjectReference Include="..\Components\MWindowInterfacesLib\MWindowInterfacesLib.csproj" />
+    <ProjectReference Include="..\Components\MWindowLib\MWindowLib.csproj" />
+    <ProjectReference Include="..\Components\Settings\SettingsModel\SettingsModel.csproj" />
+    <ProjectReference Include="..\Components\Settings\Settings\Settings.csproj" />
+    <ProjectReference Include="..\HighlightingLib\HighlightingLib.csproj" />
+    <ProjectReference Include="..\TextEditLib\TextEditLib.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AvalonEdit" Version="6.1.2.30" />
+    <PackageReference Include="Microsoft.Toolkit.Mvvm" Version="7.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Components\UnitComboLib\UnitComboLib.csproj" />
+    <ProjectReference Include="..\HighlightingLib\HighlightingLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="TextEdit.xaml.cs">
+      <DependentUpon>TextEdit.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="Themes\Generic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="TextEdit.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  
+</Project>
